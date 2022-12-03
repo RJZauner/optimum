@@ -41,6 +41,7 @@ BETTER_TRANFORMER_LAYERS_MAPPING_DICT = {
     "LayoutLMLayer": BertLayerBetterTransformer,
     "BertGenerationLayer": BertLayerBetterTransformer,
     "XLMRobertaLayer": BertLayerBetterTransformer,
+    "RemBertLayer": RemBertLayerBetterTransformer,
     # Albert Family
     "AlbertLayer": AlbertLayerBetterTransformer,
     # Bart family
